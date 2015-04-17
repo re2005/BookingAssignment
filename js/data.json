@@ -1,0 +1,190 @@
+[ {
+	"id": "011",
+	"url": "hotelfantastique.com",
+	"name": "Hotel Fantastique",
+	"type": "★★★★★",
+	"localization": {
+		"street" : ["72b Rue de Awesome"],
+		"postalcode" : ["75001"],
+		"city" : ["Paris"],
+		"country" : ["France"]
+	},
+	"photos": [
+		{
+		"alt":" description of photo 01",
+		"thumb": "1_thumb.jpg",
+		"large": "1_large.jpg"
+		},
+		{
+		"alt":" description of photo 02",
+		"thumb": "2_thumb.jpg",
+		"large": "2_large.jpg"
+		},
+		{
+		"alt":" description of photo 03",
+		"thumb": "3_thumb.jpg",
+		"large": "3_large.jpg"
+		},
+		{
+		"alt":" description of photo 04",
+		"thumb": "4_thumb.jpg",
+		"large": "4_large.jpg"
+		},
+		{
+		"alt":" description of photo 05",
+		"thumb": "5_thumb.jpg",
+		"large": "5_large.jpg"
+		},
+		{
+		"alt":" description of photo 06",
+		"thumb": "6_thumb.jpg",
+		"large": "6_large.jpg"
+		},
+		{
+		"alt":" description of photo 07",
+		"thumb": "7_thumb.jpg",
+		"large": "7_large.jpg"
+		},
+		{
+		"alt":" description of photo 08",
+		"thumb": "8_thumb.jpg",
+		"large": "8_large.jpg"
+		},
+		{
+		"alt":" description of photo 09",
+		"thumb": "9_thumb.jpg",
+		"large": "9_large.jpg"
+		},
+		{
+		"alt":" description of photo 10",
+		"thumb": "10_thumb.jpg",
+		"large": "10largeb.jpg"
+		},
+		{
+		"alt":" description of photo 11",
+		"thumb": "11_thumb.jpg",
+		"large": "11largeb.jpg"
+		},
+		{
+		"alt":" description of photo 12",
+		"thumb": "12_thumb.jpg",
+		"large": "12largeb.jpg"
+		},
+		{
+		"alt":" description of photo 13",
+		"thumb": "13_thumb.jpg",
+		"large": "13largeb.jpg"
+		},
+		{
+		"alt":" description of photo 14",
+		"thumb": "14_thumb.jpg",
+		"large": "14largeb.jpg"
+		}      
+	],
+	"features": {
+		"description": "<p>Located in the heart of Paris, this 5-star hotel offers elegant guest rooms in a Hausmannian-style building. It features a fitness centre, a concierge and a tour desk with ticket service.</p>
+			<p>Decorated in a unique style, the air-conditioned guest rooms at the Hotel du Louvre are equipped with satellite TV, a minibar and free Wi-Fi access. Some rooms feature a seating area. All rooms have a private bathroom, some include marble features.</p>
+			<p>The hotel restaurant, Brasserie du Louvre, has a traditional Parisian decor and serves traditional French cuisine. A buffet breakfast is served every morning. Guests can also enjoy a cocktail and jazz evenings twice a week in the Defender Bar.</p>
+			<p>The 4 facades and terrace of this hotel overlook the famous Louvre Museum, the Opéra Garnier and the Comédie Française theatre.</p>
+			<p>Hotel du Louvre is situated 2 minutes from Palais Royal Metro Station, providing direct access to the Champs Elysees and the Place de la Bastille. Public parking is available nearby.</p>",
+		"facilities": [
+			{
+				"facilitie":"facilitie"
+			},
+			{
+				"facilitie":"facilitie"
+			},
+			{
+				"facilitie":"facilitie"
+			},
+			{
+				"facilitie":"facilitie"
+			},
+			{
+				"facilitie":"facilitie"
+			},
+			{
+				"facilitie":"facilitie"
+			},
+			{
+				"facilitie":"facilitie"
+			},
+			{
+				"facilitie":"facilitie"
+			},
+			{
+				"facilitie":"facilitie"
+			},
+			{
+				"facilitie":"facilitie"
+			},			
+			{
+				"facilitie":"facilitie"
+			}					
+		]
+	},
+	"rooms": {
+		"name": "name",
+		"occupancy": "occupancy",
+		"price": "price",
+		"rooms": "rooms"	
+	},
+	"reviews": [
+		{
+			"score":"score",
+			"description":"description",
+			"cite":"cite"
+		},
+		{
+			"score":"score",
+			"description":"description",
+			"cite":"cite"
+		},
+		{
+			"score":"score",
+			"description":"description",
+			"cite":"cite"
+		},
+		{
+			"score":"score",
+			"description":"description",
+			"cite":"cite"
+		},
+		{
+			"score":"score",
+			"description":"description",
+			"cite":"cite"
+		},
+		{
+			"score":"score",
+			"description":"description",
+			"cite":"cite"
+		},
+		{
+			"score":"score",
+			"description":"description",
+			"cite":"cite"
+		},
+		{
+			"score":"score",
+			"description":"description",
+			"cite":"cite"
+		},
+		{
+			"score":"score",
+			"description":"description",
+			"cite":"cite"
+		},
+		{
+			"score":"score",
+			"description":"description",
+			"cite":"cite"
+		},			
+		{
+			"score":"score",
+			"description":"description",
+			"cite":"cite"
+		}					
+		]
+	}
+]
