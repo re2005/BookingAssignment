@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>Hotel Fantastique</title>
-		<link rel="stylesheet" href="css.css" />
+		<link rel="stylesheet" href="css/css.css" />
 		<!--[if lt IE 9]>
 		<script>
 			document.createElement('header');
@@ -15,10 +15,8 @@
 		<![endif]-->
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	</head>
-	
+
 	<body>
-
-
 		<header class="header">
 			<script id="headerTemplate" type="text/html">
 				<h1 class="hotel_name">${name} <span class="stars">${type}</span></h1>
@@ -26,8 +24,6 @@
 			</script>		
 		</header>
 		
-
-
 
 		<section class="photos">
 			<script id="photoTemplate" type="text/html">
@@ -39,30 +35,27 @@
 			</script>
 		</section>
 		
-		
+
 		<section class="description">
 			<h2>Description</h2>
 			<script id="descriptionTemplate" type="text/html">
-				
 				<p>
-					${features.description[0]}
+					${features.description}
 				</p>
 			</script>
 		</section>
 		
+		
 		<section class="facilities">
 			<h2>Facilities</h2>
-			<ul>
-				<li>Free Wifi</li>
-				<li>Swimming Pool</li>
-				<li>Gym</li>
-				<li>24/7 reception</li>
-				<li>Concierge</li>
-				<li>Restaurant</li>
-				<li>Free Parking</li>
-				<li>Shoe-Shine</li>
-				<li>Satellite TV</li>
-				<li>Room Service</li>
+			<ul id="facilities">
+				<script id="facilitiesTemplate" type="text/html">
+					{{each features.facilities}}
+						<li>${facilitie}</li>
+					{{/each}}
+				</script>
+
+
 			</ul>
 		</section>
 		
@@ -469,8 +462,8 @@
 			&copy;2014 Booking.com
 		</section>
 		
-		<script src="jquery-1.11.1.min.js"></script>
+		<script src="js/jquery-1.11.1.min.js"></script>
 		<script src="js/jquery.tmpl.min.js"></script>
-		<script src="js.js"></script>
+		<script src="js/js.js"></script>
 	</body>
 </html>

@@ -58,71 +58,64 @@
 		{
 		"alt":" description of photo 10",
 		"thumb": "10_thumb.jpg",
-		"large": "10largeb.jpg"
+		"large": "10_large.jpg"
 		},
 		{
 		"alt":" description of photo 11",
 		"thumb": "11_thumb.jpg",
-		"large": "11largeb.jpg"
+		"large": "11_large.jpg"
 		},
 		{
 		"alt":" description of photo 12",
 		"thumb": "12_thumb.jpg",
-		"large": "12largeb.jpg"
+		"large": "12_large.jpg"
 		},
 		{
 		"alt":" description of photo 13",
 		"thumb": "13_thumb.jpg",
-		"large": "13largeb.jpg"
+		"large": "13_large.jpg"
 		},
 		{
 		"alt":" description of photo 14",
 		"thumb": "14_thumb.jpg",
-		"large": "14largeb.jpg"
+		"large": "14_large.jpg"
 		}      
 	],
 	"features": {
-		"description": "<p>Located in the heart of Paris, this 5-star hotel offers elegant guest rooms in a Hausmannian-style building. It features a fitness centre, a concierge and a tour desk with ticket service.</p>
-			<p>Decorated in a unique style, the air-conditioned guest rooms at the Hotel du Louvre are equipped with satellite TV, a minibar and free Wi-Fi access. Some rooms feature a seating area. All rooms have a private bathroom, some include marble features.</p>
-			<p>The hotel restaurant, Brasserie du Louvre, has a traditional Parisian decor and serves traditional French cuisine. A buffet breakfast is served every morning. Guests can also enjoy a cocktail and jazz evenings twice a week in the Defender Bar.</p>
-			<p>The 4 facades and terrace of this hotel overlook the famous Louvre Museum, the Opéra Garnier and the Comédie Française theatre.</p>
-			<p>Hotel du Louvre is situated 2 minutes from Palais Royal Metro Station, providing direct access to the Champs Elysees and the Place de la Bastille. Public parking is available nearby.</p>",
+		"description": "Located in the heart of Paris, this 5-star hotel offers elegant guest rooms in a Hausmannian-style building. It features a fitness centre, a concierge and a tour desk with ticket service. Decorated in a unique style, the air-conditioned guest rooms at the Hotel du Louvre are equipped with satellite TV, a minibar and free Wi-Fi access. Some rooms feature a seating area. All rooms have a private bathroom, some include marble features...",
 		"facilities": [
 			{
-				"facilitie":"facilitie"
+				"facilitie":"Free Wifi"
 			},
 			{
-				"facilitie":"facilitie"
+				"facilitie":"Swimming Pool"
 			},
 			{
-				"facilitie":"facilitie"
+				"facilitie":"Gym"
 			},
 			{
-				"facilitie":"facilitie"
+				"facilitie":"24/7 reception"
 			},
 			{
-				"facilitie":"facilitie"
+				"facilitie":"Concierge"
 			},
 			{
-				"facilitie":"facilitie"
+				"facilitie":"Restaurant"
 			},
 			{
-				"facilitie":"facilitie"
+				"facilitie":"Free Parking"
 			},
 			{
-				"facilitie":"facilitie"
+				"facilitie":"Shoe-Shine"
 			},
 			{
-				"facilitie":"facilitie"
+				"facilitie":"Satellite TV"
 			},
 			{
-				"facilitie":"facilitie"
-			},			
-			{
-				"facilitie":"facilitie"
-			}					
+				"facilitie":"Room Service"
+			}	
 		]
-	},
+		},
 	"rooms": {
 		"name": "name",
 		"occupancy": "occupancy",

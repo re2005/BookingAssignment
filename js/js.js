@@ -14,8 +14,7 @@
 		var index = $( '.one_photo' ).size();
 		totalPhotos = index;
 	}
-	
-
+	setTimeout(function(){ createSlider(); }, 100);
 
 
 	// Navigation
@@ -50,14 +49,12 @@
 	});	
 
 
-	// Generic functions
 
 	navSlider = function(nav) {
 		if (nav == "next") {
 			if (currentPhoto == (totalPhotos - 1)) {
 				currentPhoto = 0;
 				openPhoto(currentPhoto,"true");
-
 			} else {
 				currentPhoto = currentPhoto + 1 ;
 				openPhoto(currentPhoto,"true");
@@ -67,7 +64,6 @@
 			if (currentPhoto == 0) {
 				currentPhoto = 13;
 				openPhoto(currentPhoto,"true");
-
 			} else {
 				currentPhoto = currentPhoto -1 ;
 				openPhoto(currentPhoto,"true");
@@ -80,7 +76,6 @@
 	openPhoto = function(index,nav){
 		var url = getPhotoData(index).url;
 		var alt = getPhotoData(index).alt;
-
 		if ( nav ) {
 			$( '#photoSlider h2' ).html(alt);
 			$( "#photoSlider .wrap" ).prepend('<img src='+url+'>');
@@ -110,10 +105,8 @@
 	}
 
 
-
 	getPhotoData = function(index){
 		var photos = [];
-
 		$( ".photos ul li a" ).each(function( index ) {
 			var url = $(this).attr( 'href' );
 			var alt = $(this).children().attr( 'alt' );
@@ -141,15 +134,13 @@
     });
     
 
+    
     function starPage( data ) {
       $("#photoTemplate").tmpl(data).appendTo(".photos");
       $("#headerTemplate").tmpl(data).appendTo("header");
-      //$("#descriptionTemplate").tmpl(data).appendTo(".description");
-      
+      $("#descriptionTemplate").tmpl(data).appendTo(".description");
+      $("#facilitiesTemplate").tmpl(data).appendTo("#facilities");
     }
-
-	
-	setTimeout(function(){ createSlider(); }, 500);
 
 
 })();
