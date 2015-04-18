@@ -218,7 +218,6 @@ h2 {
 
 
 /* photoSlider */
-
 #photoSlider {
 	display: none;
 	position: fixed;
@@ -230,7 +229,6 @@ h2 {
 	background: rgba(0, 0, 0, 0.5);
 	z-index: 99;
 }
-
 #photoSlider .wrap, #photoSlider .nav{
 	height: 60%;
 	min-width: 600px;
@@ -245,7 +243,6 @@ h2 {
 	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
-
 #photoSlider h2 {
 	z-index: 1;
 	position: absolute;
@@ -255,7 +252,6 @@ h2 {
 	margin: 54% 0 0 0;
 	width: 100%;
 }
-
 #photoSlider img{
 	width: 100%;
 	position: absolute;
@@ -267,7 +263,6 @@ h2 {
 	-o-transition: all 0.1s ease;
 	transition: all 0.1s ease;	
 }
-
 /* navigation */
 .nav {
 	top: -100%;
@@ -310,7 +305,6 @@ h2 {
 	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
-
 #prev:hover, #next:hover {
 	background: rgba(0, 0, 0, 0.8);
 	color: #fff
@@ -333,7 +327,6 @@ h2 {
 	height: 50%;
 	color: #fff;	
 }
-
 .bar {
 	position: absolute;
 	top: 0;
@@ -346,7 +339,6 @@ h2 {
 	-o-animation:      bar 3s infinite ease;
 	animation:         bar 3s infinite ease;
 }
-
 @-webkit-keyframes bar {
   0%   { width: 0; }
   100% { width: 100%; }
@@ -366,6 +358,8 @@ h2 {
 
 
 
+
+/* Structure */
 @media all and (min-width: 600px) {
 	body {
 		padding: 0 40px;
@@ -373,3 +367,34 @@ h2 {
 }
 
 
+
+
+/* Rooms Table */
+.rooms h2 {
+	float: left;
+}
+.rooms h3 {
+	display: inline;
+	margin-right: 40px;
+	padding: 10px;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.alert_1 {
+	color: #fff;
+	background: red;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;		
+}
+
+
+/* Maps */
+#map-canvas {
+	width: 100%;
+	height: 400px;
+}

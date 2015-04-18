@@ -3,6 +3,10 @@
 	"url": "hotelfantastique.com",
 	"name": "Hotel Fantastique",
 	"type": "★★★★★",
+	"metadata" :{
+			"title":"Hotel Fantastique",
+			"description" : "Located in the heart of Paris, this 5-star hotel offers elegant guest rooms in a Hausmannian-style building. It features a fitness centre, a concierge and a tour desk with ticket service. Decorated in a unique style, the air-conditioned guest rooms at the Hotel du Louvre are equipped with satellite TV, a minibar and free Wi-Fi access. Some rooms feature a seating area. All rooms have a private bathroom, some include marble features..."
+		},
 	"localization": {
 		"street" : ["72b Rue de Awesome"],
 		"postalcode" : ["75001"],
@@ -116,12 +120,57 @@
 			}	
 		]
 		},
-	"rooms": {
-		"name": "name",
-		"occupancy": "occupancy",
-		"price": "price",
-		"rooms": "rooms"	
-	},
+	"rooms": [
+		{
+		"name": "Basic 2 Bed",
+		"occupancy": "2",
+		"price": "88.50",
+		"rooms": "5",
+		"currency": "&euro;"
+		},
+		{
+		"name": "Basic Family Room",
+		"occupancy": "3",
+		"price": "111",
+		"rooms": "5",
+		"currency": "&euro;"
+		},
+		{
+		"name": "Deluxe 2 Bed",
+		"occupancy": "4",
+		"price": "122.99",
+		"rooms": "5",
+		"currency": "&euro;"
+		},
+		{
+		"name": "Deluxe Family Room",
+		"occupancy": "7",
+		"price": "188.80",
+		"rooms": "5",
+		"currency": "&euro;"
+		},
+		{
+		"name": "Bridal Suite",
+		"occupancy": "2",
+		"price": "323.25",
+		"rooms": "3",
+		"currency": "&euro;"
+		},
+		{
+		"name": "President Suite",
+		"occupancy": "3",
+		"price": "548.50",
+		"rooms": "2",
+		"currency": "&euro;"
+		},
+		{
+		"name": "One+One",
+		"occupancy": "2",
+		"price": "72.99",
+		"rooms": "5",
+		"currency": "&euro;"
+		}
+	],
 	"reviews": [
 		{
 			"score":"score",
