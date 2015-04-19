@@ -130,14 +130,14 @@
 		},
 		{
 		"name": "Basic Family Room",
-		"occupancy": "3",
-		"price": "111",
+		"occupancy": "4",
+		"price": "111.50",
 		"rooms": "5",
 		"currency": "&euro;"
 		},
 		{
-		"name": "Deluxe 2 Bed",
-		"occupancy": "4",
+		"name": "Deluxe 3 Bed",
+		"occupancy": "5",
 		"price": "122.99",
 		"rooms": "5",
 		"currency": "&euro;"
@@ -151,14 +151,14 @@
 		},
 		{
 		"name": "Bridal Suite",
-		"occupancy": "2",
+		"occupancy": "3",
 		"price": "323.25",
 		"rooms": "3",
 		"currency": "&euro;"
 		},
 		{
 		"name": "President Suite",
-		"occupancy": "3",
+		"occupancy": "9",
 		"price": "548.50",
 		"rooms": "2",
 		"currency": "&euro;"

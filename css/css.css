@@ -360,7 +360,7 @@ h2 {
 
 
 /* Structure */
-@media all and (min-width: 600px) {
+@media all and (max-width: 1000px) {
 	body {
 		padding: 0 40px;
 	}
@@ -382,7 +382,6 @@ h2 {
 	-o-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
 }
-
 .alert_1 {
 	color: #fff;
 	background: red;
@@ -391,6 +390,14 @@ h2 {
 	-o-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;		
 }
+.sorted:before{
+	position: absolute;
+	content: '\00d7';
+	color: yellow;
+}
+
+
+
 
 
 /* Maps */

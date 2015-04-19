@@ -19,6 +19,19 @@
 
 	// Navigation
 
+	var f_sl = 1;
+	var f_nm = 1;
+	$(document).on('click', '.room_occupancy, .room_price', function(e) {
+		e.preventDefault();
+		f_nm *= -1;
+		var n = $(this).prevAll().length;
+		sortTable(f_nm,n);		
+
+	});
+
+
+
+
 	$(document).on('click', '.one_photo', function(e) {
 		e.preventDefault();
 		slideShow()
@@ -145,11 +158,10 @@
 
 	$(document).on('change', '.room_quantity select', function() {
 		var cost = $(this).attr('data-price');
-		totalCost();
+		calculateTotal();
 	})
 
-
-	function totalCost(){
+	function calculateTotal(){
 		var t_sum = 0;
 		$( "select" ).each(function( index ) {
 			var qnt = $(this).val()
@@ -159,12 +171,75 @@
 	        total_sum = t_sum.toFixed(2);
 			$("#total_price").text(total_sum);
 		});
-
 		$(".rooms h3").addClass("alert_1").delay(1000).queue(function(next){
 			$(this).removeClass();
 			next();
 		});
 	}
+
+
+
+
+	function priceOrder(){
+
+		orderRoom = [];
+
+		$( ".one_room" ).each(function() {
+
+			var occupancy = $(this).find(".room_occupancy").text();
+			var price = $(this).find("select").attr( 'data-price' );
+				
+			//console.log(occupancy,price);
+			orderRoom.push({occupancy,price});
+
+		});
+
+
+		var test = orderRoom.sort(function(a, b){return a-b});
+		console.log(test);
+	}
+
+
+
+
+
+
+
+
+function sortTable(f,n){
+  var rows = $('.rooms_table tbody  tr').get();
+
+  rows.sort(function(a, b) {
+
+  var A = $(a).children('td').eq(n).text().toUpperCase();
+  var B = $(b).children('td').eq(n).text().toUpperCase();
+
+  if(A < B) {
+    return -1*f;
+  }
+  if(A > B) {
+    return 1*f;
+  }
+  return 0;
+  });
+
+  $.each(rows, function(index, row) {
+    $('.rooms_table').children('tbody').append(row);
+  });
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
