@@ -1,7 +1,5 @@
 // you can enter your JS here!
 
-
-
 (function (){
 
 
@@ -9,6 +7,8 @@
 	// PAGE NAVIGATION
 	///////////////////////////////////////////////////////////
 	
+
+	// Open photo slider
 	$(document).on('click', '.one_photo', function(e) {
 		e.preventDefault();
 		slideShow()
@@ -17,21 +17,25 @@
 		openPhoto(index);
 	});
 
+	// Go to next photo
 	$(document).on('click', '#next', function(e) {
 		e.preventDefault();
 		navSlider("next");
 	});
 
+	// Go to previous photo
 	$(document).on('click', '#prev', function(e) {
 		e.preventDefault();
 		navSlider();
 	});
 
+	// Close photo slider
 	$(document).on('click', '.close', function(e) {
 		e.preventDefault();
 		closePhotos()
 	});
 
+	// Keyboard keys triggers
 	$(document).keyup(function(e) {
 		if (e.keyCode == 27) { closePhotos() }   // esc
 		if (e.keyCode == 39) { navSlider("next"); }   // right
@@ -79,12 +83,15 @@
 	}
 
 	closePhotos = function(){
-		$( '#photoSlider' ).fadeOut(200, function() {
-			$( this ).hide();
-			$( '#photoSlider .wrap' ).css( "top", "-100%" ).empty();
-			$('.nav').delay(500).css( "top", "-100%" );
-			clearTimeout( slideTimer );
-		});
+		var sliderTrue = $( '.wrap img' ).length;
+		if (sliderTrue){
+			$( '#photoSlider' ).fadeOut(200, function() {
+				$( this ).hide();
+				$( '#photoSlider .wrap' ).css( "top", "-100%" ).empty();
+				$('.nav').delay(500).css( "top", "-100%" );
+				clearTimeout( slideTimer );
+			});
+		}
 	}
 
 	navSlider = function(nav) {
@@ -145,15 +152,13 @@
 		$("#facilitiesTemplate").tmpl(data).appendTo("#facilities");
 		$("#roomsTemplate").tmpl(data).appendTo("tbody");
 		$("#reviewsTemplate").tmpl(data).appendTo(".reviews_list");
-
-		pagination();
 	}
 
 
 
 
 	////////////////////////////////////////////////////////////
-	// CALCULATE THE TOTAL PRICE
+	// CALCULATE THE TOTAL PRICE & SORT ITEMS
 	///////////////////////////////////////////////////////////
 
 	$(document).on('change', '.room_quantity select', function() {
@@ -183,9 +188,7 @@
 			var occupancy = $(this).find(".room_occupancy").text();
 			var price = $(this).find("select").attr( 'data-price' );
 			orderRoom.push({occupancy,price});
-
 		});
-
 		var test = orderRoom.sort(function(a, b){return a-b});
 	}
 
@@ -221,39 +224,44 @@
 
 
 
-pagination = function(){
-	var perPage = 5;
-	var total = $(".one_review").size();
-
-	console.log(total);
-}
 
 
 
+	////////////////////////////////////////////////////////////
+	// GOOGLE MAPS
+	///////////////////////////////////////////////////////////
 
-
-
-
-
-
-
-
-
-
-
-	// Google Maps
 	function initialize() {
-		var mapCanvas = document.getElementById('map-canvas');
 		var mapOptions = {
-			center: new google.maps.LatLng(48.8421607,2, -2.3994408,13),
-			zoom: 12,
-			mapTypeId: google.maps.MapTypeId.ROADMAP
+			zoom: 10,
+			center: new google.maps.LatLng(48.8421607,2, -2.3994408,13)
 		}
-		var map = new google.maps.Map(mapCanvas, mapOptions)
+		var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+		var myLatLng = new google.maps.LatLng(48.8421607,2, -2.3994408,13);
+		var hotelMarker = new google.maps.Marker({
+			position: myLatLng,
+			map: map,
+			title: 'Your Hotel'
+		});
+
+		var myPoint1 = new google.maps.LatLng(48.7421607,2, -2.3994405,13);
+		var hotelPoint = new google.maps.Marker({
+			position: myPoint1,
+			map: map,
+			title:'Nice Museum to visit'
+		});
+
+		var myPoint2 = new google.maps.LatLng(48.9421607,2, -2.3994405,13);
+		var hotelPoint = new google.maps.Marker({
+			position: myPoint2,
+			map: map,
+			title:'Amazing restaurant'
+		});
 	}
 	google.maps.event.addDomListener(window, 'load', initialize);
 
 
+
+
 })();
-
-

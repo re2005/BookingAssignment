@@ -357,18 +357,6 @@ h2 {
 }
 
 
-
-
-/* Structure */
-@media all and (max-width: 1000px) {
-	body {
-		padding: 0 40px;
-	}
-}
-
-
-
-
 /* Rooms Table */
 .rooms h2 {
 	float: left;
@@ -397,11 +385,16 @@ h2 {
 }
 
 
-
-
-
 /* Maps */
 #map-canvas {
 	width: 100%;
 	height: 400px;
+}
+
+
+/* Structure */
+@media all and (max-width: 1000px) {
+	body {
+		padding: 0 40px;
+	}
 }
