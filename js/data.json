@@ -1,0 +1,247 @@
+[ {
+	"id": "011",
+	"url": "hotelfantastique.com",
+	"name": "Hotel Fantastique",
+	"type": "★★★★★",
+	"metadata" :{
+			"title":"Hotel Fantastique",
+			"description" : "Located in the heart of Paris, this 5-star hotel offers elegant guest rooms in a Hausmannian-style building. It features a fitness centre, a concierge and a tour desk with ticket service. Decorated in a unique style, the air-conditioned guest rooms at the Hotel du Louvre are equipped with satellite TV, a minibar and free Wi-Fi access. Some rooms feature a seating area. All rooms have a private bathroom, some include marble features..."
+		},
+	"localization": {
+		"street" : ["72b Rue de Awesome"],
+		"postalcode" : ["75001"],
+		"city" : ["Paris"],
+		"country" : ["France"]
+	},
+	"photos": [
+		{
+		"alt":" description of photo 01",
+		"thumb": "1_thumb.jpg",
+		"large": "1_large.jpg"
+		},
+		{
+		"alt":" description of photo 02",
+		"thumb": "2_thumb.jpg",
+		"large": "2_large.jpg"
+		},
+		{
+		"alt":" description of photo 03",
+		"thumb": "3_thumb.jpg",
+		"large": "3_large.jpg"
+		},
+		{
+		"alt":" description of photo 04",
+		"thumb": "4_thumb.jpg",
+		"large": "4_large.jpg"
+		},
+		{
+		"alt":" description of photo 05",
+		"thumb": "5_thumb.jpg",
+		"large": "5_large.jpg"
+		},
+		{
+		"alt":" description of photo 06",
+		"thumb": "6_thumb.jpg",
+		"large": "6_large.jpg"
+		},
+		{
+		"alt":" description of photo 07",
+		"thumb": "7_thumb.jpg",
+		"large": "7_large.jpg"
+		},
+		{
+		"alt":" description of photo 08",
+		"thumb": "8_thumb.jpg",
+		"large": "8_large.jpg"
+		},
+		{
+		"alt":" description of photo 09",
+		"thumb": "9_thumb.jpg",
+		"large": "9_large.jpg"
+		},
+		{
+		"alt":" description of photo 10",
+		"thumb": "10_thumb.jpg",
+		"large": "10_large.jpg"
+		},
+		{
+		"alt":" description of photo 11",
+		"thumb": "11_thumb.jpg",
+		"large": "11_large.jpg"
+		},
+		{
+		"alt":" description of photo 12",
+		"thumb": "12_thumb.jpg",
+		"large": "12_large.jpg"
+		},
+		{
+		"alt":" description of photo 13",
+		"thumb": "13_thumb.jpg",
+		"large": "13_large.jpg"
+		},
+		{
+		"alt":" description of photo 14",
+		"thumb": "14_thumb.jpg",
+		"large": "14_large.jpg"
+		}      
+	],
+	"features": {
+		"description": "Located in the heart of Paris, this 5-star hotel offers elegant guest rooms in a Hausmannian-style building. It features a fitness centre, a concierge and a tour desk with ticket service. Decorated in a unique style, the air-conditioned guest rooms at the Hotel du Louvre are equipped with satellite TV, a minibar and free Wi-Fi access. Some rooms feature a seating area. All rooms have a private bathroom, some include marble features...",
+		"facilities": [
+			{
+				"facilitie":"Free Wifi"
+			},
+			{
+				"facilitie":"Swimming Pool"
+			},
+			{
+				"facilitie":"Gym"
+			},
+			{
+				"facilitie":"24/7 reception"
+			},
+			{
+				"facilitie":"Concierge"
+			},
+			{
+				"facilitie":"Restaurant"
+			},
+			{
+				"facilitie":"Free Parking"
+			},
+			{
+				"facilitie":"Shoe-Shine"
+			},
+			{
+				"facilitie":"Satellite TV"
+			},
+			{
+				"facilitie":"Room Service"
+			}	
+		]
+		},
+	"rooms": [
+		{
+		"name": "Basic 2 Bed",
+		"occupancy": "2",
+		"price": "88.50",
+		"rooms": "5",
+		"currency": "&euro;"
+		},
+		{
+		"name": "Basic Family Room",
+		"occupancy": "4",
+		"price": "111.50",
+		"rooms": "5",
+		"currency": "&euro;"
+		},
+		{
+		"name": "Deluxe 3 Bed",
+		"occupancy": "5",
+		"price": "122.99",
+		"rooms": "5",
+		"currency": "&euro;"
+		},
+		{
+		"name": "Deluxe Family Room",
+		"occupancy": "7",
+		"price": "188.80",
+		"rooms": "5",
+		"currency": "&euro;"
+		},
+		{
+		"name": "Bridal Suite",
+		"occupancy": "3",
+		"price": "323.25",
+		"rooms": "3",
+		"currency": "&euro;"
+		},
+		{
+		"name": "President Suite",
+		"occupancy": "9",
+		"price": "548.50",
+		"rooms": "2",
+		"currency": "&euro;"
+		},
+		{
+		"name": "One+One",
+		"occupancy": "2",
+		"price": "72.99",
+		"rooms": "5",
+		"currency": "&euro;"
+		}
+	],
+	"reviews": [
+		{
+			"score":"5",
+			"description":"Morbi vel nisi vel nibh rhoncus vestibulum non sagittis nisl. Curabitur varius dolor massa, ut pulvinar mauris blandit a. Phasellus vestibulum arcu turpis, ut consequat risus sagittis ut. Proin non elit sit amet magna lacinia molestie. Sed eget vulputate augue. In hac habitasse platea dictumst. Cras imperdiet leo nec ante dapibus, in mollis risus interdum. Nullam pharetra nibh eu diam tempus, eget lobortis metus vulputate.",
+			"cite":"Zoe Washburne"
+		},
+		{
+			"score":"6",
+			"description":"Curabitur quis augue cursus, cursus massa ac, dapibus magna. Curabitur non sapien vel lorem pellentesque rhoncus. Nam sagittis, metus aliquet malesuada egestas, leo purus cursus turpis, tempor pharetra tellus nibh posuere turpis. Cras viverra, nisi eget ornare suscipit, erat velit facilisis elit, quis interdum justo magna a tortor. Donec condimentum quam id felis sollicitudin porttitor. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+			"cite":"Hoban Washburne"
+		},
+		{
+			"score":"9",
+			"description":"Etiam posuere, magna sit amet ullamcorper auctor, odio urna tempor velit, sit amet tincidunt lorem diam a velit. Integer a dapibus nunc. In iaculis vel sem ut gravida.",
+			"cite":"Inara Serra"
+		},
+		{
+			"score":"8",
+			"description":"Etiam condimentum sodales dui in vestibulum. Vivamus euismod egestas porttitor. Proin dictum tempor euismod. Suspendisse elit nulla, elementum eu ornare in, tempus in massa. Proin elit sem, posuere nec tempor eget, suscipit sit amet dui. Aliquam in vehicula lorem. Praesent vitae vestibulum ante, nec vestibulum metus. Morbi commodo diam in leo semper ornare. Phasellus et diam magna.",
+			"cite":"Jayne Cobb"
+		},
+		{
+			"score":"9",
+			"description":"Morbi vel nisi vel nibh rhoncus vestibulum non sagittis nisl. Curabitur varius dolor massa, ut pulvinar mauris blandit a. Phasellus vestibulum arcu turpis, ut consequat risus sagittis ut. Proin non elit sit amet magna lacinia molestie. Sed eget vulputate augue. In hac habitasse platea dictumst. Cras imperdiet leo nec ante dapibus, in mollis risus interdum. Nullam pharetra nibh eu diam tempus, eget lobortis metus vulputate.",
+			"cite":"Tracey Smith"
+		},
+		{
+			"score":"10",
+			"description":"Curabitur quis augue cursus, cursus massa ac, dapibus magna. Curabitur non sapien vel lorem pellentesque rhoncus. Nam sagittis, metus aliquet malesuada egestas, leo purus cursus turpis, tempor pharetra tellus nibh posuere turpis. Cras viverra, nisi eget ornare suscipit, erat velit facilisis elit, quis interdum justo magna a tortor. Donec condimentum quam id felis sollicitudin porttitor. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+			"cite":"Tracey Smith"
+		},
+		{
+			"score":"6",
+			"description":"Etiam posuere, magna sit amet ullamcorper auctor, odio urna tempor velit, sit amet tincidunt lorem diam a velit. Integer a dapibus nunc. In iaculis vel sem ut gravida.",
+			"cite":"Tracey Smith"
+		},
+		{
+			"score":"5",
+			"description":"Morbi vel nisi vel nibh rhoncus vestibulum non sagittis nisl. Curabitur varius dolor massa, ut pulvinar mauris blandit a. Phasellus vestibulum arcu turpis, ut consequat risus sagittis ut. Proin non elit sit amet magna lacinia molestie. Sed eget vulputate augue. In hac habitasse platea dictumst. Cras imperdiet leo nec ante dapibus, in mollis risus interdum. Nullam pharetra nibh eu diam tempus, eget lobortis metus vulputate.",
+			"cite":"Tracey Smith"
+		},
+		{
+			"score":"6",
+			"description":"Curabitur quis augue cursus, cursus massa ac, dapibus magna. Curabitur non sapien vel lorem pellentesque rhoncus. Nam sagittis, metus aliquet malesuada egestas, leo purus cursus turpis, tempor pharetra tellus nibh posuere turpis. Cras viverra, nisi eget ornare suscipit, erat velit facilisis elit, quis interdum justo magna a tortor. Donec condimentum quam id felis sollicitudin porttitor. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+			"cite":"Tracey Smith"
+		},
+		{
+			"score":"9",
+			"description":"Etiam posuere, magna sit amet ullamcorper auctor, odio urna tempor velit, sit amet tincidunt lorem diam a velit. Integer a dapibus nunc. In iaculis vel sem ut gravida.",
+			"cite":"Tracey Smith"
+		},
+		{
+			"score":"8",
+			"description":"Etiam condimentum sodales dui in vestibulum. Vivamus euismod egestas porttitor. Proin dictum tempor euismod. Suspendisse elit nulla, elementum eu ornare in, tempus in massa. Proin elit sem, posuere nec tempor eget, suscipit sit amet dui. Aliquam in vehicula lorem. Praesent vitae vestibulum ante, nec vestibulum metus. Morbi commodo diam in leo semper ornare. Phasellus et diam magna.",
+			"cite":"Tracey Smith"
+		},
+		{
+			"score":"9",
+			"description":"Morbi vel nisi vel nibh rhoncus vestibulum non sagittis nisl. Curabitur varius dolor massa, ut pulvinar mauris blandit a. Phasellus vestibulum arcu turpis, ut consequat risus sagittis ut. Proin non elit sit amet magna lacinia molestie. Sed eget vulputate augue. In hac habitasse platea dictumst. Cras imperdiet leo nec ante dapibus, in mollis risus interdum. Nullam pharetra nibh eu diam tempus, eget lobortis metus vulputate.",
+			"cite":"Tracey Smith"
+		},
+		{
+			"score":"3",
+			"description":"Curabitur quis augue cursus, cursus massa ac, dapibus magna. Curabitur non sapien vel lorem pellentesque rhoncus. Nam sagittis, metus aliquet malesuada egestas, leo purus cursus turpis, tempor pharetra tellus nibh posuere turpis. Cras viverra, nisi eget ornare suscipit, erat velit facilisis elit, quis interdum justo magna a tortor. Donec condimentum quam id felis sollicitudin porttitor. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+			"cite":"Tracey Smith"
+		},
+		{
+			"score":"2",
+			"description":"Etiam posuere, magna sit amet ullamcorper auctor, odio urna tempor velit, sit amet tincidunt lorem diam a velit. Integer a dapibus nunc. In iaculis vel sem ut gravida.",
+			"cite":"Tracey Smith"
+		}					
+		]
+	}
+]
